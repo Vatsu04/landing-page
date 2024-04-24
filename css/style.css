@@ -173,14 +173,14 @@ header .navbar ul li a:hover{
 
 .row {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row-reverse; 
     align-items: center; 
     
 }
 
 .contato .row{
     display: flex;
-    
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     
