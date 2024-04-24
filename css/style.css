@@ -173,8 +173,62 @@ header .navbar ul li a:hover{
 
 .row {
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row; 
     align-items: center; 
+    
+}
+
+.contato .row{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.compra{
+    appearance: none;
+    background-color: #DEAD04;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.compra:hover{
+    background-color: #624d02;
+}
+
+#produtos .box-container .box{
+    text-align: center;
+    border-left: 0rem solid #fff;
+}
+
+
+
+.contato .row img{
+    height:20rem;
+}
+
+
+.socialMedia img{
+    cursor:pointer;
 }
 
 .content {
@@ -292,40 +346,7 @@ img {
 }
 
 
-.portifolio .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
 
-}
-
-
-.portifolio .box-container .box{
-    height: 20rem;
-    width: 26rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.portifolio .box-container .box img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.portifolio .box-container .box:hover img{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-}
-
-.portifolio .box-container .box:hover img{
-    transform: scale(1.2);
-}
 
 .contato .row{
     display: flex;
@@ -403,8 +424,6 @@ img {
         padding: 1rem 4rem;
         padding-top:10rem;
     }
- 
-
     .row img{
         display: none;
     }
@@ -430,10 +449,21 @@ img {
 
     .row {
         display: flex;
-        flex-direction: column-reverse; 
-        
-        
+        flex-direction: column-reverse;  
     }
+
+    .sobre .box-container .box h3{
+        font-size: 4rem;
+        color: #fff;
+        padding-top: 1.5rem;
+    }
+    
+    .sobre .box-container .box p{
+        font-size: 2rem;
+        color: #eee;
+        padding: 1rem 0;
+    }
+
     header.toggle{
         left:0%;
     }
