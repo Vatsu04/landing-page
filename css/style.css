@@ -645,7 +645,27 @@ img {
         padding: rem 0;
     }
 
-    .sobre .box-container .box{
+    .produtos .box-container .box{
+        width: 40rem;
+        margin: 4rem 1rem;
+        
+        border-left: .2rem solid #fff;
+        position: relative
+    }
+
+    .produtos .box-container .box h3{
+        font-size: 4rem;
+        color: #fff;
+        padding-top: 1.5rem;
+    }
+    
+    .produtos .box-container .box p{
+        font-size: 2rem;
+        color: #eee;
+        padding: rem 0;
+    }
+
+    .produtos .box-container .box{
         width: 40rem;
         margin: 4rem 1rem;
         
@@ -687,9 +707,20 @@ img {
     .sobre .box-container .box{
         width: 100%;
     }
-    .portfolio .box-container .box{
+
+    .produtos .row .counter .box{
         width: 100%;
     }
+    heading{
+        margin: 0 3rem;
+    }
+    .produtos .row .counter .box{
+        width: 100%;
+    }
+    .produtos .box-container .box{
+        width: 100%;
+    }
+    
     .contact .row form{
         margin: 3rem 0;
     } 
