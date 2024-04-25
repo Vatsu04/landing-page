@@ -20,6 +20,8 @@
     color : #333;
 }
 
+
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -44,6 +46,8 @@ body{
     overflow-x: hidden;
     
 }
+
+
 
 section{
     min-height: 30vh;
@@ -105,7 +109,7 @@ header img{
     width: 25rem; 
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
+   
 }
 
 header .user .name{
@@ -178,9 +182,52 @@ header .navbar ul li a:hover{
     
 }
 
+.contato .row .socialMedia .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.contato .row .socialMedia .fa:hover{
+    opacity: 0.7;
+}
+
+.contato .row .socialMedia .fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+
+.contato .row .socialMedia .fa-instagram{
+    background: rgb(36,0,32);
+  background: linear-gradient(90deg, rgba(36,0,32,1) 0%, rgba(185,21,184,1) 35%, rgba(255,141,0,1) 100%);
+    color: white;
+}
+
+.contato .row .info {
+    padding-top: 10px;
+}
+
+
+.contato .row .info h3{
+    font-size: 15px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-whatsapp{
+    background-color: 	#25D366;
+    color:white;
+}
+
 .contato .row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     
@@ -218,14 +265,15 @@ header .navbar ul li a:hover{
 #produtos .box-container .box{
     text-align: center;
     border-left: 0rem solid #fff;
+    padding-right: 4rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    
 }
 
-
-
-.contato .row img{
-    height:20rem;
+#produtos .box-container .box img{
+    width: 40rem;
 }
-
 
 .socialMedia img{
     cursor:pointer;
@@ -271,6 +319,20 @@ img {
 
 
 
+.sobre .box-container .box i{
+    position: absolute;
+    top: -1.5rem; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+
+
 .sobre .box-container{
     display: flex;
     align-items: center;
@@ -278,7 +340,10 @@ img {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    
 }
+
+
 
 .sobre .box-container .box{
     width: 27rem;
@@ -320,14 +385,14 @@ img {
 
 
 
-.sobre #stores{
+.contato .row #stores{
     padding-top: 10px;
     text-align: center;
 }
 
 .google{
     width:20rem;
-    
+    height:9rem;
 }
 
 .apple{
@@ -357,9 +422,11 @@ img {
 
 .content .row .content{
     flex: 1 1 30rem;
-    padding: 4rem;
+    padding: 10rem;
     padding-bottom: 0;
 }
+
+
 
 .contato .row form{
     flex: 1 1 45rem;
@@ -427,12 +494,14 @@ img {
     .row img{
         display: none;
     }
+
+    .row #stores img{
+        display: block;
+    }
 }
 
 @media (max-width: 991px){
-    header{
-        left: -120%;
-    }
+   
      
     #menu{
         display: block;
@@ -442,10 +511,26 @@ img {
         text-align: center;
     }
 
+    .home{  
+        
+        padding-top:15rem;
+    }
+
+  
+
     .row img{
         display: block;
-        height: 150px;
+        
     }
+
+    #produtos .box-container .box{
+        
+        padding-right: 4rem;
+       
+        
+    }
+
+
 
     .row {
         display: flex;
@@ -461,7 +546,15 @@ img {
     .sobre .box-container .box p{
         font-size: 2rem;
         color: #eee;
-        padding: 1rem 0;
+        padding: rem 0;
+    }
+
+    .sobre .box-container .box{
+        width: 40rem;
+        margin: 4rem 1rem;
+        
+        border-left: .2rem solid #fff;
+        position: relative
     }
 
     header.toggle{
@@ -501,7 +594,7 @@ img {
     .portfolio .box-container .box{
         width: 100%;
     }
-    .conact .row form{
+    .contact .row form{
         margin: 3rem 0;
     } 
 }
@@ -516,46 +609,6 @@ img {
   #contato {
   margin-left: 0;
   text-align: center;
-  }
-
-  #myButton1{
-    background: rgb(36,0,32);
-  background: linear-gradient(90deg, rgba(36,0,32,1) 0%, rgba(185,21,184,1) 35%, rgba(255,141,0,1) 100%);
-  ;
-
-  }
-  
-  #myButton2{
-    background-color: #0072b1;;
-     
-  }
-
-  #myButton3{
-    background-color: #EA4335;
-   
-  }
-  
-  
-
-
-  #myButton4{
-    background-color: 	#25D366;
-    height: 30px;
-    
-  }
-
-  #myButton6{
-    background-color: white;
-    color:black;
-    height:30px;
-  }
-
-  #ningato{
-    color: lightblue;
-  }
-  
-  #myButton1:hover,#myButton2:hover,#myButton3:hover,#myButton4:hover{
-    cursor: pointer;
   }
 
   
