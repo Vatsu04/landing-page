@@ -90,6 +90,18 @@ section{
     color:var(--yellow);
 }
 
+#produtos .box-container .box{
+    text-align: center;
+    border-left: 0rem solid #fff;
+    padding-right: 4rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    
+}
+
+#produtos .box-container .box img{
+    width: 40rem;
+}
 header{
     position: fixed;
     top: 0;
@@ -174,6 +186,7 @@ header .navbar ul li a:hover{
     padding-bottom: 20rem;
     
 }
+
 
 .row {
     display: flex;
@@ -262,18 +275,7 @@ header .navbar ul li a:hover{
     background-color: #624d02;
 }
 
-#produtos .box-container .box{
-    text-align: center;
-    border-left: 0rem solid #fff;
-    padding-right: 4rem;
-    margin-right: 12rem;
-    margin-left: 12rem;
-    
-}
 
-#produtos .box-container .box img{
-    width: 40rem;
-}
 
 .socialMedia img{
     cursor:pointer;
@@ -291,7 +293,7 @@ img {
 .home img{
     height: 50rem;
     
-    width: 80rem; 
+    width: 120rem; 
     
     object-fit: cover;
     margin-bottom: 1rem;
@@ -339,7 +341,7 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1rem 0;
-    padding-left: 3rem;
+  
     
 }
 
@@ -348,7 +350,9 @@ img {
 .sobre .box-container .box{
     width: 27rem;
     margin: 4rem 1rem;
-    padding-left: 4rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+   
     border-left: .2rem solid #fff;
     position: relative
 }
@@ -483,10 +487,34 @@ img {
     display: none;
 }
 
+@media (max-width: 1884px){
+    .home img{
+        height: 50rem;
+        
+        width: 80rem; 
+        
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1300px){
+    .home img{
+        height: 50rem;
+        
+        width: 50rem; 
+        
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+}
+
 @media (max-width: 1200px){
     html{   
         font-size: 55%;
     }
+
+   
     .home{  
         padding: 1rem 4rem;
         padding-top:10rem;
@@ -507,6 +535,15 @@ img {
         display: block;
     }
 
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+        padding: 1rem; 
+    }
+   
+    
     .row{
         text-align: center;
     }
@@ -514,6 +551,10 @@ img {
     .home{  
         
         padding-top:15rem;
+    }
+
+    header img{
+        display:none;
     }
 
   
