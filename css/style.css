@@ -93,7 +93,7 @@ section{
 #produtos .box-container .box{
     text-align: center;
     border-left: 0rem solid #fff;
-    padding-right: 4rem;
+    
     margin-right: 12rem;
     margin-left: 12rem;
     
@@ -487,6 +487,67 @@ img {
     display: none;
 }
 
+.produtos .box-container .box i{
+    position: absolute;
+    top: -1.5rem; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+
+
+.produtos .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.produtos .box-container .box {
+    width: 27rem;
+    margin: 4rem auto; 
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+
+.produtos .box-container .box span{
+    color: var(--yellow);
+    padding: 0 .5rem;
+}
+
+.produtos .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.produtos .box-container .box p{
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.produtos .box-container .box i{
+    position: absolute;
+    top: -1.5rem; left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+
+
 @media (max-width: 1884px){
     .home img{
         height: 50rem;
@@ -564,13 +625,7 @@ img {
         
     }
 
-    #produtos .box-container .box{
-        
-        padding-right: 4rem;
-       
-        
-    }
-
+   
 
 
     .row {
