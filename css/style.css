@@ -299,6 +299,8 @@ img {
     margin-bottom: 1rem;
 }
 
+
+
 .home h3{
     font-size: 2.5rem;
     color: #fff;
@@ -312,6 +314,11 @@ img {
 .home h1 span {
     color: var(--yellow);
 }
+
+.home p span {
+    color: var(--yellow);
+}
+
 
 .home p{
     font-size: 2rem;
@@ -351,7 +358,7 @@ img {
     width: 27rem;
     margin: 4rem 1rem;
     margin-right: 12rem;
-    margin-left: 12rem;
+    margin-left: 8rem;
    
     border-left: .2rem solid #fff;
     position: relative
@@ -366,12 +373,14 @@ img {
     font-size: 2rem;
     color: #fff;
     padding-top: 1.5rem;
+    padding-left: 4rem;
 }
 
 .sobre .box-container .box p{
     font-size: 1.4rem;
     color: #eee;
     padding: 1rem 0;
+    padding-left: 4rem;
 }
 
 .sobre .box-container .box i{
@@ -423,6 +432,7 @@ img {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .content .row .content{
     flex: 1 1 30rem;
@@ -559,6 +569,8 @@ img {
     }
 }
 
+
+
 @media (max-width: 1300px){
     .home img{
         height: 50rem;
@@ -643,6 +655,14 @@ img {
         font-size: 2rem;
         color: #eee;
         padding: rem 0;
+    }
+
+    .sobre .box-container .box {
+        font-size: 2rem;
+        color: #eee;
+        padding: rem 0;
+        width: 100%;
+        border: 0rem;
     }
 
     .produtos .box-container .box{
